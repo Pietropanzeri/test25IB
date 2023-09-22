@@ -14,6 +14,10 @@
                 Name = student.Name;
                 Cognome = student.Cognome;
             }
+            public override string ToString()
+            {
+                return base.ToString(); 
+            }
         }
 
         static void Main(string[] args)
